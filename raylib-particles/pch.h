@@ -17,8 +17,8 @@ using namespace std;
 
 // External Libraries.. oh the linking..
 #include <raylib.h>
-//#include <raymath.h>
-//#include <rlgl.h>
+#include <raymath.h>
+#include <rlgl.h>
 
 // Data Structures
 #include <vector>
@@ -44,5 +44,3 @@ using i64 = int64_t;	// long long
 
 using f32 = float;		// float
 using f64 = double;		// double (long float)
-
-using Colour = Color;
